@@ -4,3 +4,5 @@ well as switching the gps on and of by sw commands, hw switching is still presen
 
 OBS!-- Untested -- For the balloon mode to work if the board waking up at over 10km we have to rely on the wdt to work or that the gps starts before the 328.
 Note - set BOR to 2.7v in the 328 to delay the start, making sure the gps have had time to start and is ready to accept commands (balloon mode) from the 328.
+
+Timing2.h is a testfile that will start tx every 2min
